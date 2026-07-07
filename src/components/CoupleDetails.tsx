@@ -21,8 +21,8 @@ export const CoupleDetails: React.FC = () => {
             <div className="w-12 sm:w-20 h-[1px] bg-gradient-to-l from-transparent to-brand-sakura-deep/60" />
           </div>
           <h2 className="text-5xl sm:text-7xl font-display text-stone-800 tracking-tight drop-shadow-sm flex flex-col items-center gap-4">
-            <span>Ayesh <span className="italic text-brand-sakura-deep font-light mx-2">&</span> Senuri</span>
-            <span className="text-3xl sm:text-5xl font-sinhala">අයේෂ් <span className="italic text-brand-sakura-deep font-light mx-2">&</span> සෙනුරි</span>
+            <span>Chandeepa <span className="italic text-brand-sakura-deep font-light mx-2">&</span> Saumya</span>
+            <span className="text-3xl sm:text-5xl font-sinhala">චන්දීප <span className="italic text-brand-sakura-deep font-light mx-2">&</span> සෞම්‍යා</span>
           </h2>
         </motion.div>
       </div>
@@ -39,12 +39,12 @@ export const CoupleDetails: React.FC = () => {
           <div className="mb-4 flex flex-col items-center lg:items-end">
             <span className="text-brand-sakura-deep uppercase tracking-widest text-[10px] font-bold mb-2 block">The Groom | මනාලයා</span>
             <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm flex flex-col items-center lg:items-end gap-2">
-              <span>Ayesh</span>
-              <span className="text-2xl sm:text-3xl font-sinhala">අයේෂ්</span>
+              <span>Chandeepa</span>
+              <span className="text-2xl sm:text-3xl font-sinhala">චන්දීප</span>
             </h3>
             <div className="text-stone-800 font-serif italic font-bold text-base sm:text-lg flex flex-col items-center lg:items-end gap-1">
-              <span>Loving son of Mr. & Mrs. Nishantha Weerasooriya</span>
-              <span className="text-sm sm:text-base font-sinhala not-italic text-center lg:text-right">නිශාන්ත වීරසූරිය මහතාගේ සහ මහත්මියගේ පුතණුවන්</span>
+              <span>Loving son of Mr. & Mrs. Somarathna</span>
+              <span className="text-sm sm:text-base font-sinhala not-italic text-center lg:text-right">සෝමරත්න මහතාගේ සහ මහත්මියගේ පුතණුවන්</span>
             </div>
           </div>
           <div className="hidden lg:flex justify-end mt-8">
@@ -76,12 +76,12 @@ export const CoupleDetails: React.FC = () => {
           <div className="mb-4 flex flex-col items-center lg:items-start">
             <span className="text-brand-sakura-deep uppercase tracking-widest text-[10px] font-bold mb-2 block">The Bride | මනාලිය</span>
             <h3 className="text-4xl sm:text-5xl font-display text-stone-800 mb-2 drop-shadow-sm flex flex-col items-center lg:items-start gap-2">
-              <span>Senuri</span>
-              <span className="text-2xl sm:text-3xl font-sinhala">සෙනුරි</span>
+              <span>Saumya</span>
+              <span className="text-2xl sm:text-3xl font-sinhala">සෞම්‍යා</span>
             </h3>
             <div className="text-stone-800 font-serif italic font-bold text-base sm:text-lg flex flex-col items-center lg:items-start gap-1">
-              <span>Loving daughter of Mr. & Mrs. Siripala</span>
-              <span className="text-sm sm:text-base font-sinhala not-italic text-center lg:text-left">සිරිපාල මහතාගේ සහ මහත්මියගේ දියණිය</span>
+              <span>Loving daughter of Mr. & Mrs. Jayaweera</span>
+              <span className="text-sm sm:text-base font-sinhala not-italic text-center lg:text-left">ජයවීර මහතාගේ සහ මහත්මියගේ දියණිය</span>
             </div>
           </div>
           <div className="hidden lg:flex justify-start mt-8">

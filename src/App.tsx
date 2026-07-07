@@ -18,7 +18,7 @@ export default function App() {
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  const weddingDate = new Date('2027-01-28T10:00:00');
+  const weddingDate = new Date('2026-08-13T10:00:00');
 
   const toggleMusic = () => {
     if (audioRef.current) {
@@ -92,7 +92,7 @@ export default function App() {
                   <div className="h-[1px] w-12 bg-brand-sakura-deep/40" />
                 </div>
                 <h1 className="text-4xl sm:text-6xl font-display text-stone-800 mb-4 tracking-tight">
-                  Ayesh <span className="italic text-brand-sakura-deep">&</span> Senuri
+                  Chandeepa <span className="italic text-brand-sakura-deep">&</span> Saumya
                 </h1>
                 <p className="text-stone-500 font-serif italic text-lg sm:text-xl">You are cordially invited</p>
               </motion.div>

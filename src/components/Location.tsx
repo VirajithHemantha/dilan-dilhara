@@ -3,9 +3,9 @@ import { motion } from 'motion/react';
 import { MapPin, Navigation, Compass, Map } from 'lucide-react';
 
 export const Location: React.FC = () => {
-  const venueAddress = "Green Serenity Holiday Resort, Elbalawa, Demataluwa, Kurunegala";
-  const mapUrl = `https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3954.891334651336!2d80.231221!3d7.586715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3276666666667%3A0x6666666666666666!2sGreen%20Serenity%20Holiday%20Resort!5e0!3m2!1sen!2slk!4v1712821639000!5m2!1sen!2slk`;
-  const liveLocationUrl = "https://maps.app.goo.gl/EypfvtEHFjqHodPZ7?g_st=iw";
+  const venueAddress = "Heritage Hotel, Anuradhapura";
+  const mapUrl = `https://maps.google.com/maps?q=Heritage%20Hotel%20Anuradhapura&t=&z=15&ie=UTF8&iwloc=&output=embed`;
+  const liveLocationUrl = "https://maps.app.goo.gl/oAkhEtkAEoYYjy6q9";
 
   return (
     <div className="max-w-[85rem] mx-auto px-6 relative py-12">
@@ -45,8 +45,8 @@ export const Location: React.FC = () => {
                   <MapPin className="text-brand-sakura-deep w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-2xl font-sans font-bold text-stone-800 mb-1">Green Serenity Holiday Resort</p>
-                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 leading-relaxed mb-6">Elbalawa, Demataluwa, Kurunegala</p>
+                  <p className="text-2xl font-sans font-bold text-stone-800 mb-1">Heritage Hotel</p>
+                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 leading-relaxed mb-6">Anuradhapura</p>
 
                   <p className="text-stone-500/90 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-sakura/40">
                     "A serene and elegant setting where we will begin our new chapter together."
@@ -85,7 +85,7 @@ export const Location: React.FC = () => {
             <div className="absolute inset-0 bg-brand-sakura/10 mix-blend-multiply pointer-events-none z-20 group-hover/map:opacity-0 transition-opacity duration-1000" />
 
             <iframe
-              title="Green Serenity Holiday Resort Location"
+              title="Heritage Hotel Location"
               src={mapUrl}
               width="100%"
               height="100%"
