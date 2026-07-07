@@ -66,6 +66,11 @@ export const RSVPForm: React.FC = () => {
           <p className="text-stone-500/90 font-serif text-lg leading-relaxed mb-6">
             Your presence means the world to us. Please kindly let us know if you will be able to join our celebration.
           </p>
+          <div className="text-stone-500/90 font-serif text-lg leading-relaxed mb-6">
+            <p className="text-[12px] uppercase tracking-[0.2em] font-bold text-stone-500 mb-2">For Inquiries (RSVP):</p>
+            <p>071 98 96 98 4 - Dilan (දිලාන්)</p>
+            <p>076 67 12 914 - Chamath (චමත්)</p>
+          </div>
           <div className="w-12 h-[1px] bg-brand-sakura/50 mx-auto lg:mx-0" />
         </div>
 

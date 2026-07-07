@@ -3,9 +3,9 @@ import { motion } from 'motion/react';
 import { MapPin, Navigation, Compass, Map } from 'lucide-react';
 
 export const Location: React.FC = () => {
-  const venueAddress = "Heritage Hotel, Anuradhapura";
-  const mapUrl = `https://maps.google.com/maps?q=Heritage%20Hotel%20Anuradhapura&t=&z=15&ie=UTF8&iwloc=&output=embed`;
-  const liveLocationUrl = "https://maps.app.goo.gl/oAkhEtkAEoYYjy6q9";
+  const venueAddress = "Hotel River Park, Hikkaduwa";
+  const mapUrl = `https://maps.google.com/maps?q=Hotel%20River%20Park%20Hikkaduwa&t=&z=15&ie=UTF8&iwloc=&output=embed`;
+  const liveLocationUrl = "https://www.google.com/maps/search/?api=1&query=Hotel+River+Park+Hikkaduwa";
 
   return (
     <div className="max-w-[85rem] mx-auto px-6 relative py-12">
@@ -45,8 +45,8 @@ export const Location: React.FC = () => {
                   <MapPin className="text-brand-sakura-deep w-5 h-5" />
                 </div>
                 <div>
-                  <p className="text-2xl font-sans font-bold text-stone-800 mb-1">Heritage Hotel</p>
-                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 leading-relaxed mb-6">Anuradhapura</p>
+                  <p className="text-2xl font-sans font-bold text-stone-800 mb-1">Hotel River Park</p>
+                  <p className="text-[11px] uppercase tracking-[0.2em] font-medium text-stone-400 leading-relaxed mb-6">Patana, Hikkaduwa</p>
 
                   <p className="text-stone-500/90 italic font-serif text-lg leading-relaxed max-w-sm mb-10 pl-4 border-l-[1.5px] border-brand-sakura/40">
                     "A serene and elegant setting where we will begin our new chapter together."
@@ -85,7 +85,7 @@ export const Location: React.FC = () => {
             <div className="absolute inset-0 bg-brand-sakura/10 mix-blend-multiply pointer-events-none z-20 group-hover/map:opacity-0 transition-opacity duration-1000" />
 
             <iframe
-              title="Heritage Hotel Location"
+              title="Hotel River Park Location"
               src={mapUrl}
               width="100%"
               height="100%"

@@ -43,8 +43,8 @@ export const CeremonyDetails: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-sans text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-sakura-deep transition-colors duration-500 flex flex-col sm:flex-row sm:items-baseline gap-2">
-                    <span>Thursday, Aug 13</span>
-                    <span className="text-xl sm:text-2xl font-sinhala">අගෝස්තු 13 බ්‍රහස්පතින්දා</span>
+                    <span>Monday, Aug 31</span>
+                    <span className="text-xl sm:text-2xl font-sinhala">අගෝස්තු 31 සඳුදා</span>
                   </h4>
                   <p className="text-stone-500/80 text-[14px] sm:text-[16px] uppercase tracking-[0.4em] font-bold">2026</p>
                 </div>
@@ -57,13 +57,13 @@ export const CeremonyDetails: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-sans text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-sakura-deep transition-colors duration-500 flex flex-col sm:flex-row sm:items-baseline gap-2">
-                    <span>10:00 AM - 04:00 PM</span>
-                    <span className="text-xl sm:text-2xl font-sinhala">උදැසන 10:00 සිට සවස 04:00 දක්වා</span>
+                    <span>09:30 AM - 04:00 PM</span>
+                    <span className="text-xl sm:text-2xl font-sinhala">උදැසන 09:30 සිට සවස 04:00 දක්වා</span>
                   </h4>
                   <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-normal font-bold">Wedding Ceremony & Reception | විවාහ මංගල උත්සවය සහ දිවා භෝජනය</p>
                   <p className="text-brand-sakura-deep text-[14px] sm:text-[16px] font-bold mt-2 flex items-center gap-2">
                     <Sparkles className="w-4 h-4" />
-                    <span>PORUWA CEREMONY 9.58 A.M</span>
+                    <span>PORUWA CEREMONY 10.00 A.M</span>
                   </p>
                 </div>
               </div>
@@ -75,10 +75,10 @@ export const CeremonyDetails: React.FC = () => {
                 </div>
                 <div>
                   <h4 className="font-sans text-2xl sm:text-3xl text-stone-800 mb-2 group-hover:text-brand-sakura-deep transition-colors duration-500 flex flex-col sm:flex-row sm:items-baseline gap-2">
-                    <span>Heritage Hotel</span>
-                    <span className="text-xl sm:text-2xl font-sinhala">හෙරිටේජ් හෝටලය</span>
+                    <span>Hotel River Park</span>
+                    <span className="text-xl sm:text-2xl font-sinhala">HOTEL RIVER PARK</span>
                   </h4>
-                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-normal font-bold">Anuradhapura | අනුරාධපුර</p>
+                  <p className="text-stone-500/80 text-[10px] sm:text-[11px] uppercase tracking-normal font-bold">Patana, Hikkaduwa | පතන, හික්කඩුව</p>
                 </div>
               </div>
             </div>
@@ -106,7 +106,7 @@ export const CeremonyDetails: React.FC = () => {
                />
                <h4 className="font-display text-4xl text-stone-800 mb-4 tracking-tight mt-6">The Reception</h4>
                <p className="text-stone-500/90 font-sans text-lg leading-relaxed">
-                 Followed by a celebratory lunch and festivities at the Heritage Hotel, Anuradhapura.
+                 Followed by a celebratory lunch and festivities at Hotel River Park, Hikkaduwa.
                </p>
             </div>
 

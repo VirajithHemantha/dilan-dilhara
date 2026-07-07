@@ -42,7 +42,7 @@ export const IntroVideo: React.FC<IntroVideoProps> = ({ onComplete }) => {
       <video
         ref={videoRef}
         className="w-full h-full object-cover"
-        src="/Cartoon_bride_groom_202604191444.mp4"
+        src="/Lotus_blooms_reveals_wedding_Poruwa_202605141543.mp4"
         playsInline
         muted
         onPlay={handlePlay}

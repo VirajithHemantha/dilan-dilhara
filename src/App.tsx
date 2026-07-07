@@ -18,7 +18,7 @@ export default function App() {
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
   const audioRef = useRef<HTMLAudioElement | null>(null);
 
-  const weddingDate = new Date('2026-08-13T10:00:00');
+  const weddingDate = new Date('2026-08-31T09:30:00');
 
   const toggleMusic = () => {
     if (audioRef.current) {
@@ -92,7 +92,7 @@ export default function App() {
                   <div className="h-[1px] w-12 bg-brand-sakura-deep/40" />
                 </div>
                 <h1 className="text-4xl sm:text-6xl font-display text-stone-800 mb-4 tracking-tight">
-                  Chandeepa <span className="italic text-brand-sakura-deep">&</span> Saumya
+                  Dilan <span className="italic text-brand-sakura-deep">&</span> Dilhara
                 </h1>
                 <p className="text-stone-500 font-serif italic text-lg sm:text-xl">You are cordially invited</p>
               </motion.div>
@@ -139,6 +139,10 @@ export default function App() {
             </section>
 
             <section id="countdown" className="py-16 sm:py-32 relative overflow-hidden bg-brand-champagne/30">
+              <div 
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 opacity-100"
+                style={{ backgroundImage: "url('/ChatGPT Image May 22, 2026, 12_28_21 AM.png')" }}
+              />
               {/* Premium Background Ambient Glows */}
               <div className="absolute top-0 left-0 w-full h-full pointer-events-none">
                 <div className="absolute -top-[20%] -right-[10%] w-[50%] h-[70%] bg-brand-sakura/30 blur-[120px] rounded-full" />
@@ -164,27 +168,47 @@ export default function App() {
               </div>
             </section>
 
-            <section id="couple" className="py-16 sm:py-32 bg-white">
+            <section id="couple" className="py-16 sm:py-32 relative overflow-hidden bg-white">
+              <div 
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 opacity-100"
+                style={{ backgroundImage: "url('/ChatGPT Image May 22, 2026, 12_28_21 AM.png')" }}
+              />
               <CoupleDetails />
             </section>
 
-            <section id="ceremony" className="py-16 sm:py-32 bg-brand-ivory">
+            <section id="ceremony" className="py-16 sm:py-32 relative overflow-hidden bg-brand-ivory">
+              <div 
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 opacity-100"
+                style={{ backgroundImage: "url('/ChatGPT Image May 22, 2026, 12_26_02 AM.png')" }}
+              />
               <CeremonyDetails />
             </section>
 
             {/* Timeline section removed entirely as requested */}
 
-            <section id="location" className="py-16 sm:py-32 bg-white">
+            <section id="location" className="py-16 sm:py-32 relative overflow-hidden bg-white">
+              <div 
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 opacity-100"
+                style={{ backgroundImage: "url('/ChatGPT Image May 22, 2026, 12_28_21 AM.png')" }}
+              />
               <Location />
             </section>
 
 
 
-            <section id="rsvp" className="py-16 sm:py-32 bg-brand-ivory">
+            <section id="rsvp" className="py-16 sm:py-32 relative overflow-hidden bg-brand-ivory">
+              <div 
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 opacity-100"
+                style={{ backgroundImage: "url('/ChatGPT Image May 22, 2026, 12_28_21 AM.png')" }}
+              />
               <RSVPForm />
             </section>
 
-            <section id="wishes" className="py-16 sm:py-32 bg-white">
+            <section id="wishes" className="py-16 sm:py-32 relative overflow-hidden bg-white">
+              <div 
+                className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-all duration-1000 opacity-100"
+                style={{ backgroundImage: "url('/ChatGPT Image May 22, 2026, 12_28_21 AM.png')" }}
+              />
               <WishesForm />
             </section>
 

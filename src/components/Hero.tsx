@@ -20,19 +20,10 @@ export const Hero: React.FC = () => {
       >
         {/* Background Image with Cinematic Finish */}
         <div 
-          className="absolute inset-0 bg-cover bg-[center_15%] bg-no-repeat transition-all duration-1000 saturate-[0.3] contrast-[0.95] opacity-55"
-          style={{ backgroundImage: "url('/bride_couple.webp')" }}
+          className="absolute inset-0 bg-cover bg-[center_15%] bg-no-repeat transition-all duration-1000 opacity-100"
+          style={{ backgroundImage: "url('/ChatGPT Image May 14, 2026, 03_15_02 PM.png')" }}
         />
-        
-        {/* Cinematic Vignette & Color Grading */}
-        <div className="absolute inset-0 bg-brand-ivory/50 mix-blend-multiply" />
-        
-        {/* Soft elegant gradient overlays to ensure text readability & premium feel */}
-        <div className="absolute inset-0 bg-gradient-to-t from-brand-ivory via-brand-ivory/60 to-transparent" />
-        <div className="absolute inset-0 bg-gradient-to-b from-brand-sakura/20 via-transparent to-brand-ivory/70 mix-blend-overlay" />
-        
-        {/* Radial inner glow for focusing content */}
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_center,transparent_20%,rgba(255,253,249,0.5)_100%)]" />
+ 
       </motion.div>
 
       {/* Persistent subtle falling petals in background */}
@@ -68,12 +59,12 @@ export const Hero: React.FC = () => {
 
             <h1 className="relative text-5xl sm:text-[6rem] lg:text-[8rem] font-display text-stone-800 leading-[1.1] sm:leading-[0.9] drop-shadow-sm flex flex-col items-center">
               <div className="flex flex-col sm:flex-row items-center gap-2 sm:gap-6">
-                 <span>Chandeepa</span>
+                 <span>Dilan</span>
                  <span className="text-brand-sakura-deep italic font-light text-4xl sm:text-[5rem] lg:text-[7rem] inline-block">&</span>
-                 <span>Saumya</span>
+                 <span>Dilhara</span>
               </div>
               <div className="text-3xl sm:text-5xl lg:text-6xl font-sinhala text-stone-800 tracking-tight mt-4 sm:mt-8">
-                චන්දීප <span className="text-brand-sakura-deep italic font-light mx-2">&</span> සෞම්‍යා
+                දිලාන් <span className="text-brand-sakura-deep italic font-light mx-2">&</span> දිල්හාරා
               </div>
             </h1>
           </div>
@@ -98,7 +89,7 @@ export const Hero: React.FC = () => {
               <div className="absolute inset-0 bg-gradient-to-b from-white/60 to-transparent pointer-events-none" />
               <span className="relative text-[14px] sm:text-2xl font-serif text-brand-sakura-deep tracking-[0.15em] sm:tracking-[0.3em] font-medium drop-shadow-sm flex items-center gap-2 sm:gap-3 whitespace-nowrap">
                 <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-brand-sakura flex-shrink-0" />
-                13 . 08 . 2026
+                31 . 08 . 2026
                 <Sparkles className="w-3 h-3 sm:w-4 sm:h-4 text-brand-sakura flex-shrink-0" />
               </span>
             </div>
@@ -110,7 +101,7 @@ export const Hero: React.FC = () => {
       <div className="absolute left-6 sm:left-10 top-1/2 -translate-y-1/2 hidden lg:flex flex-col items-center gap-6 mix-blend-multiply opacity-70">
         <div className="w-[1px] h-24 bg-gradient-to-b from-transparent to-brand-sakura-deep/50" />
         <p className="writing-mode-vertical text-[11px] uppercase tracking-[0.6em] text-brand-sakura-deep font-semibold font-sans">
-          Heritage Hotel • Anuradhapura
+          Hotel River Park • Hikkaduwa
         </p>
         <div className="w-[1px] h-24 bg-gradient-to-t from-transparent to-brand-sakura-deep/50" />
       </div>
