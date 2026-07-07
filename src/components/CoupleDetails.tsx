@@ -58,7 +58,7 @@ export const CoupleDetails: React.FC = () => {
             <motion.img 
               src="/70.png" 
               alt="Couple Illustration" 
-              className="relative z-10 w-full h-full object-contain drop-shadow-[0_20px_40px_rgba(0,0,0,0.1)]"
+              className="relative z-10 w-full h-full object-contain object-top rounded-full bg-white/50 shadow-xl p-2"
               animate={{ y: [0, -10, 0] }}
               transition={{ duration: 4, repeat: Infinity, ease: "easeInOut" }}
             />
